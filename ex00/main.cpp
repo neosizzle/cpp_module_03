@@ -1,12 +1,11 @@
-#include "ScavTrap.hpp"
+#include "ClapTrap.hpp"
 
 int	main()
 {
-	ScavTrap ct("marvin");
+	ClapTrap ct("marvin");
 
 	ct.attack("luigi");
 	ct.takeDamage(69);
 	ct.beRepaired(69);
-	ct.guardGate();
 	return 0;
 }
