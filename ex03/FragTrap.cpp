@@ -8,6 +8,11 @@ void	FragTrap::highFivesGuys()
 	std::cout << "Hi5guys??\n";
 }
 
+void	FragTrap::attack(std::string const & target)
+{
+	std::cout << "FragTrap " << _name <<" attack "<< target <<", causing "<< _atk_dmg << " points of damage! \n";
+}
+
 /*
 ** Constructors
 */

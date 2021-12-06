@@ -23,9 +23,9 @@ void	ClapTrap::beRepaired(unsigned int amount)
 ClapTrap::ClapTrap()
 {
 	_name = "";
-	_hitpoints = 100;
-	_energy_pts = 50;
-	_atk_dmg = 20;
+	_hitpoints = 10;
+	_energy_pts = 10;
+	_atk_dmg = 0;
 
 	std::cout << "claptrap blank constructor called\n";
 }
@@ -33,9 +33,9 @@ ClapTrap::ClapTrap()
 ClapTrap::ClapTrap(std::string name)
 {
 	_name = name;
-	_hitpoints = 100;
-	_energy_pts = 50;
-	_atk_dmg = 20;
+	_hitpoints = 10;
+	_energy_pts = 10;
+	_atk_dmg = 0;
 
 	std::cout << "claptrap string constructor called\n";
 }
